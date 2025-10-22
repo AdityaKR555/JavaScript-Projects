@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 12px;
+}
+
+.frame{
+    height: 200px;
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 12px;
+    margin-top: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame img{
+    width: 93%;
+    border-radius: 20px;
+}
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+}

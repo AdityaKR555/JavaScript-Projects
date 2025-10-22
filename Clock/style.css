@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+}
+
+.container{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(21, 1, 1);
+    color: wheat;
+    margin: 100px auto 0 auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+.lower-design{
+    width: 40%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(21, 1, 1);
+}
+
+.time{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
